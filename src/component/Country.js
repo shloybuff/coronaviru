@@ -21,7 +21,6 @@ export const Country = (props) => {
       <Card.Text><strong>Today's Deaths: </strong>{props.todayDeathsCountry}</Card.Text>
       <Card.Text><strong>Active: </strong>{props.activeCountry}</Card.Text>
       <Card.Text><strong>Critical: </strong>{props.criticalCountry}</Card.Text>
-      <Card.Text><strong>test: </strong>jveux que ca marche</Card.Text>
     </Card.Body>
   </Card>
   
