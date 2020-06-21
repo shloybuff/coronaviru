@@ -3,7 +3,7 @@
   "name": "Coronavirus",
   "icons": [
     {
-      "src": "image/corona.jpg",
+      "src": "image/virus.jpg",
       "type": "image/jpg",
       "sizes": "512x512"
     }
