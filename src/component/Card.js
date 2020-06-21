@@ -8,19 +8,19 @@ export const Case = (props) => {
   <Card
    bg='secondary' style={{color:'white'}}  className="text-center">
     <Card.Body>
-      <Card.Title> <strong>Cases</strong></Card.Title>
+      <Card.Title><strong>Cases</strong></Card.Title>
       <Card.Text>
         {props.cases}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small>Last updated 3 mins ago</small>
+      <small>Last updated 4 mins ago</small>
     </Card.Footer>
   </Card>
   <Card
    bg='danger' style={{color:'white'}} className="text-center" >
     <Card.Body >
-      <Card.Title>Deaths</Card.Title>
+      <Card.Title><strong>Deaths</strong></Card.Title>
       <Card.Text>
         {props.deaths}
       </Card.Text>
@@ -32,7 +32,7 @@ export const Case = (props) => {
   <Card
    bg='info' style={{color:'white'}} className="text-center" >
     <Card.Body>
-      <Card.Title>Recovered</Card.Title>
+      <Card.Title><strong>Recovered</strong></Card.Title>
       <Card.Text>
       {props.recovered}
       </Card.Text>

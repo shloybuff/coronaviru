@@ -9,17 +9,18 @@ export const Country = (props) => {
     bg='light' 
     text='black'  
     className="text-center"
+    style={{margin:'10px'}}
     >
     <Card.Img variant="top" src={props.flag} />   
     <Card.Body>
       <Card.Title>{props.country}</Card.Title>
-      <Card.Text>Cases: {props.casesCountry}</Card.Text>
-      <Card.Text>Deaths: {props.deathsCountry}</Card.Text>
-      <Card.Text>Recovered: {props.recoveredCountry}</Card.Text>
-      <Card.Text>Today's Cases: {props.todaycasesCountry}</Card.Text>
-      <Card.Text>Today's Deaths: {props.todayDeathsCountry}</Card.Text>
-      <Card.Text>Active: {props.activeCountry}</Card.Text>
-      <Card.Text>Critical: {props.criticalCountry}</Card.Text>
+      <Card.Text><strong>Cases: </strong> {props.casesCountry}</Card.Text>
+      <Card.Text><strong>Deaths: </strong> {props.deathsCountry}</Card.Text>
+      <Card.Text><strong>Recovered: </strong>{props.recoveredCountry}</Card.Text>
+      <Card.Text><strong>Today's Cases: </strong>{props.todaycasesCountry}</Card.Text>
+      <Card.Text><strong>Today's Deaths: </strong>{props.todayDeathsCountry}</Card.Text>
+      <Card.Text><strong>Active: </strong>{props.activeCountry}</Card.Text>
+      <Card.Text><strong>Critical: </strong>{props.criticalCountry}</Card.Text>
     </Card.Body>
   </Card>
   
