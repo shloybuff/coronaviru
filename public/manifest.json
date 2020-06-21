@@ -3,8 +3,8 @@
   "name": "Coronavirus",
   "icons": [
     {
-      "src": "image/virus.jpg",
-      "type": "image/jpg",
+      "src": "image/tete.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
