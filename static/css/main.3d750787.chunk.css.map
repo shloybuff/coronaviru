@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,YAAa,CACb,wBAAyB,CACzB,qCACF","file":"main.3d750787.chunk.css","sourcesContent":["body {\n  padding: 10px;\n  background-color: #413e3e;\n  font-family: 'Times New Roman', cursive;\n}\n\n"]}
