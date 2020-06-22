@@ -60,11 +60,15 @@ var queries = [{
   return (
     <div className="App">
       <SearchCountry search={(e) => setSearch(e.target.value)}/>
-      <Case 
-       cases={latest.cases}
-       deaths={latest.deaths}
-       recovered={latest.recovered}
-      />
+      {search === '' ?
+        <Case 
+        cases={latest.cases}
+        deaths={latest.deaths}
+        recovered={latest.recovered}
+       />
+      :null
+      }
+
       <Columns queries={queries}>{countries}</Columns>
       
     </div>
