@@ -9,7 +9,7 @@ function App() {
 
   const [latest , setLatest] = useState([])
   const [country, setCountry] = useState([])
-  const [search, setSearch] = useState([])
+  const [search, setSearch] = useState('')
 
 
 useEffect( ()=> {
