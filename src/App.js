@@ -7,7 +7,7 @@ import Columns from 'react-columns'
 
 function App() {
 
-  const [latest , setLatest] = useState([])
+  const [latest , setLatest] = useState('')
   const [country, setCountry] = useState([])
   const [search, setSearch] = useState('')
 
@@ -57,6 +57,7 @@ var queries = [{
   query: 'min-width: 1000px'
 }];
 
+ if (latest !== '') {
   return (
     <div className="App">
       <SearchCountry search={(e) => setSearch(e.target.value)}/>
@@ -73,6 +74,12 @@ var queries = [{
       
     </div>
   );
+ }else{
+   return(
+     <p style={{fontSize:35, marginTop:'10%',display:'flex',justifyContent:'center', fontFamily:'Holtwood One SC, serif'}}>Loading...</p>
+   )
+ }
+  
 }
 
 export default App;
